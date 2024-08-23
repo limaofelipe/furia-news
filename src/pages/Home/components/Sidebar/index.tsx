@@ -5,8 +5,6 @@ import { Divider, ListLink, ListLinkGames, SidebarStyled } from "./styles";
 export function Sidebar() {
   return (
     <SidebarStyled>
-      <aside>
-        <div>
           <ListLink>
             <a href="#">
               <House size={20}/>
@@ -14,11 +12,8 @@ export function Sidebar() {
             </a>
           </ListLink>
 
-        </div>
         
-          <Divider>
-            <div></div>
-          </Divider>
+          <Divider/>
 
         <div>
           <ListLinkGames>
@@ -43,13 +38,12 @@ export function Sidebar() {
               </ul>
             </div>
 
-            <Divider>
-              <div></div>
-            </Divider>
+            <Divider/>
+            
             <div>
               <h2>
                 <img src="./src/assets/icons/LolLogo.svg"/>
-                Valorant
+                League of Legends
               </h2>
               <ul>
                 <a href="#">
@@ -67,14 +61,12 @@ export function Sidebar() {
               </ul>
             </div>
 
-            <Divider>
-              <div></div>
-            </Divider>
+            <Divider />
 
             <div>
               <h2>
                 <img src="./src/assets/icons/CsLogo.svg"/>
-                Valorant
+                Counter Strike
               </h2>
               <ul>
                 <a href="#">
@@ -95,11 +87,6 @@ export function Sidebar() {
           </ListLinkGames>
 
         </div>
-
-
-
-   
-      </aside>
     </SidebarStyled>
   )
 }

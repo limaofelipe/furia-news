@@ -29,9 +29,6 @@ export function Router () {
         <Route path="/GamesLol" element={<GamesLol/>}/>
         <Route path="/GamesValorant" element={<GamesValorant/>}/>
         <Route path="/GamesCs" element={<GamesCs/>}/>
-
-
-        
       </Route>
     </Routes>
   )

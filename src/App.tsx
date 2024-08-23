@@ -6,8 +6,6 @@ import { Router } from "./Router"
 
 export function App() {
   return (
-    <>
-
     <ThemeProvider theme={defaultTheme}>
       <BrowserRouter>
         <Router />
@@ -15,7 +13,5 @@ export function App() {
       
       <GlobalStyles />
     </ThemeProvider>
-    </>
-
   )
 }

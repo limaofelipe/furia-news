@@ -9,12 +9,13 @@ export const HeaderStyled = styled.header `
     padding-inline: 10rem;
 
     border-bottom: 1px solid ${(props) => props.theme['gray-600']};
+    overflow: auto;
 
     input {
       background-color: ${(props) => props.theme['gray-700']};
       border: 1px solid ${(props) => props.theme['gray-600']};
       border-radius: 15px;
-      width: 35rem;
+      width: 30rem;
       padding-left: 1.12rem;
       font-size: 1rem;
       color: ${(props) => props.theme['gray-300']};

@@ -1,15 +1,16 @@
 import { Outlet } from "react-router-dom";
-import { LayoutContainer } from "./styles";
-import { Sidebar } from "../../components/Sidebar";
-import { Header } from "../../components/Header/Header";
-
+import { LayoutContainer, LayoutFlex } from "./styles";
+import { Header } from "../../pages/Home/components/Header/Header";
+import { Sidebar } from "../../pages/Home/components/Sidebar";
 
 export function DefaultLayout () {
   return (
     <LayoutContainer>
       <Header/>
-      <Sidebar/>
-      <Outlet/>
+      <LayoutFlex>
+        <Sidebar/>
+        <Outlet/>
+      </LayoutFlex>
     </LayoutContainer>
   )
 }
