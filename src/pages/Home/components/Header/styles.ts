@@ -2,15 +2,18 @@ import styled from "styled-components";
 
 
 export const HeaderStyled = styled.header `
-   div  {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     padding-block: 0.5rem;
     padding-inline: 10rem;
-
+    background-color: ${(props) => props.theme['gray-900']};
     border-bottom: 1px solid ${(props) => props.theme['gray-600']};
     overflow: auto;
-
+    
     input {
       background-color: ${(props) => props.theme['gray-700']};
       border: 1px solid ${(props) => props.theme['gray-600']};
@@ -24,7 +27,7 @@ export const HeaderStyled = styled.header `
       background-repeat: no-repeat;
     }
 
-    a {
+    .button {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -41,10 +44,9 @@ export const HeaderStyled = styled.header `
       transition: 0.3s;
 
     }
-    a:hover {
+    .button:hover {
       background-color: ${(props) => props.theme["gray-100"]};
     }
 
 
-  }
 `

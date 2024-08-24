@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const SidebarStyled = styled.aside `
   color: ${props => props.theme["gray-300"]};
-  
+  position: fixed;
   border-right: 1px solid ${props => props.theme["gray-600"]};
-  margin-top: 0;
+  margin-top: 4rem;
+  margin-left: 10rem;
   height: 100vh;
-  width: 25rem;
-  padding-left: 10rem;
+  width: 15rem;
   overflow: auto;
   
   `

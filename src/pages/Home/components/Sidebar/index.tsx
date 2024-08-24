@@ -1,15 +1,17 @@
 import { Calendar, House, Newspaper, Users } from "@phosphor-icons/react";
 import { Divider, ListLink, ListLinkGames, SidebarStyled } from "./styles";
+import { NavLink } from "react-router-dom";
+
 
 
 export function Sidebar() {
   return (
     <SidebarStyled>
           <ListLink>
-            <a href="#">
+            <NavLink to="/">
               <House size={20}/>
               <h2>Página ínicial</h2>
-            </a>
+            </NavLink>
           </ListLink>
 
         
@@ -23,18 +25,18 @@ export function Sidebar() {
                 Valorant
               </h2>
               <ul>
-                <a href="#">
+                <NavLink to="/NewsValorant">
                   <Newspaper size={20}/>
                   <li>Notícias</li>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/GamesValorant">
                   <Calendar size={20} />
                   <li>Jogos mais recenetes</li>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/PlayersValorant">
                   <Users size={20} />
                   <li>Players</li>
-                </a>
+                </NavLink>
               </ul>
             </div>
 
@@ -46,18 +48,18 @@ export function Sidebar() {
                 League of Legends
               </h2>
               <ul>
-                <a href="#">
+                <NavLink to="/NewsLol">
                 <Newspaper size={20}/>
                   <li>Notícias</li>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/GamesLol">
                   <Calendar size={20} />
                   <li>Jogos mais recenetes</li>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/PlayersLol">
                   <Users size={20} />
                   <li>Players</li>
-                </a>
+                </NavLink>
               </ul>
             </div>
 
@@ -69,18 +71,18 @@ export function Sidebar() {
                 Counter Strike
               </h2>
               <ul>
-                <a href="#">
+                <NavLink to="/NewsCs">
                   <Newspaper size={20}/>
                   <li>Notícias</li>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/GamesCs">
                   <Calendar size={20} />
                   <li>Jogos mais recenetes</li>
-                </a>
-                <a href="#">
+                </NavLink>
+                <NavLink to="/PlayersCs">
                   <Users size={20} />
                   <li>Players</li>
-                </a>
+                </NavLink>
               </ul>
             </div>
 

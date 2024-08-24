@@ -1,12 +1,19 @@
 import styled from "styled-components";
 
-export const CardStyled = styled.div `
+export const CardLinkStyled = styled.a`
   margin-top: 2rem;
-  width: 50rem;
-  height: 25rem;
   border: 1px solid ${props => props.theme["gray-600"]};
   border-radius: 25px;
   padding-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-decoration: none;
+  color: ${props => props.theme["gray-300"]};
+  padding: 2rem;
+
+  transition: 0.2s;
 
   h3{
     font-size: 2rem;
@@ -21,12 +28,25 @@ export const CardStyled = styled.div `
   }
 
   img {
-    margin-top: 1rem;
-    width: 45rem;
+    margin-block: 1rem;
     height: 16rem;
     object-fit: fill;
     border-radius: 20px;
   }
 
-  `
+  .icon {
+      width: 3.0rem;
+      height: 3.0rem;
+    }
 
+  &:hover {
+    border: 1px solid ${props => props.theme["gray-300"]};
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: fit-content;
+}
+`
