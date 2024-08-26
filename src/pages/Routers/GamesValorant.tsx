@@ -1,5 +1,5 @@
-import { GameCard } from "../../Home/components/GameCard"
-import { RecentGamesLayout, Title } from "../../Home/components/GameCard/styles"
+import { GameCard } from "../Home/components/GameCard"
+import { RecentGamesLayout, Title } from "../Home/components/GameCard/styles"
 
 export const teams = {
   leviatan: "../../../src/assets/leviatan.png",
@@ -18,14 +18,14 @@ export const gamesValorant = [
     firstTeam: "Fúria Esports",
     firstTeamLogo: teams.furia,
     firstTeamPoints: 0,
-    secondTeam: "Leviatan",
+    secondTeam: "Leviatan Esports",
     secondTeamLogo: teams.leviatan,
     secondTeamPoints: 1,
   },
 
   { 
     date: "7 de julho de 2024",
-    firstTeam: "MIBR",
+    firstTeam: "MIBR Esports",
     firstTeamLogo: teams.mibr,
     firstTeamPoints: 0,
     secondTeam: "Fúria Esports",
@@ -35,8 +35,8 @@ export const gamesValorant = [
 
   { 
     date: "2 de julho de 2024",
-    firstTeam: "Loud",
-    firstTeamLogo: teams.furia,
+    firstTeam: "Loud Esports",
+    firstTeamLogo: teams.loud,
     firstTeamPoints: 1,
     secondTeam: "Furia Esports",
     secondTeamLogo: teams.furia,
@@ -58,7 +58,7 @@ export const gamesValorant = [
     firstTeam: "Fúria Esports",
     firstTeamLogo: teams.furia,
     firstTeamPoints: 2,
-    secondTeam: "Leviatan",
+    secondTeam: "Leviatan Esports",
     secondTeamLogo: teams.leviatan,
     secondTeamPoints: 0,
   }

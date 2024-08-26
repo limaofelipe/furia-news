@@ -8,9 +8,8 @@ export function Header() {
           <NavLink to={"/"}>
             <img src={logo} alt="Ilustração de uma pantera negra"/>
           </NavLink>
-          <input type="text" placeholder="Pesquise notícias da Fúria em seu jogo favorito"/>
-            <a className="button" href="#">
-              Contate a Fúria
+            <a className="button" href="https://furia.gg/" target="_blank">
+              Site Oficial
             </a>
     </HeaderStyled>
 

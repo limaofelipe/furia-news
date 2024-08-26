@@ -4,13 +4,12 @@ import { NewsValorant } from "./pages/Routers/NewsValorant"
 import { NewsLol } from "./pages/Routers/NewsLol"
 import { NewsCs } from "./pages/Routers/NewsCs"
 import { PlayersValorant } from "./pages/Routers/PlayersValorant"
-import { PlayersLol } from "./pages/Routers/PlayersLol"
 import { PlayersCs } from "./pages/Routers/PlayersCs"
-import { GamesValorant } from "./pages/Routers/GamesValorant"
 import { GamesLol } from "./pages/Routers/GamesLol"
 import { GamesCs } from "./pages/Routers/GamesCs"
-
 import { DefaultLayout } from "./layouts/DefaultLayout"
+import { PlayersLol } from "./pages/Routers/PlayersLol"
+import { GamesValorant } from "./pages/Routers/GamesValorant"
 
 
 export function Router () {

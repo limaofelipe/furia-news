@@ -1,5 +1,5 @@
-import { Card } from "./components/Cards";
-import { HomeStyled, NewsGrid } from "./styles";
+import { Card } from "./components/NewsCards";
+import { NewsGrid, NewsStyled } from "./styles";
 
 export const LogoAsIcon = {
   valorant: "./src/assets/icons/ValorantLogo.svg",
@@ -173,12 +173,9 @@ export const news =  [
 
 ]
 
-
-
-
 export function Home() {
   return (
-    <HomeStyled>
+    <NewsStyled>
       <h1>Tudo sobre a maior organização do Brasil </h1>
       <NewsGrid>
           {news.map((item, index) => (
@@ -194,6 +191,6 @@ export function Home() {
             />
           ))}
       </NewsGrid>
-    </HomeStyled>
+    </NewsStyled>
   )
 }

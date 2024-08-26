@@ -8,7 +8,7 @@ export const Title = styled.h1 `
 
 export const RecentGamesLayout = styled.div`
   margin-left: 28rem;
-  margin-top: 5.5rem;
+  margin-top: 6rem;
   margin-bottom: 3rem;
   display: flex;
   flex-direction: column;

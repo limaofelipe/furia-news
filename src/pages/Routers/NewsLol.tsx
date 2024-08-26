@@ -1,6 +1,6 @@
-import { news } from "../../Home";
-import { Card } from "../../Home/components/Cards";
-import { NewsLayout, NewsGrid } from "./styles";
+import { news } from "../Home";
+import { Card } from "../Home/components/NewsCards";
+import { NewsStyled, NewsGrid } from "../Home/styles";
 
 
 export function filterNewsByTag(tag: any) {
@@ -11,7 +11,7 @@ export function NewsLol() {
   const filteredNews = (filterNewsByTag("#lol").length > 0 ) ? filterNewsByTag("#lol") : news
 
   return (
-    <NewsLayout>
+    <NewsStyled>
     <h1>Time Fúria - League of Legends</h1>
     <NewsGrid>
     {filteredNews.map((item, index) => (
@@ -26,6 +26,6 @@ export function NewsLol() {
             icon={item.icon}/>
         ))}
     </NewsGrid>
-  </NewsLayout>
+  </NewsStyled>
   )
 }

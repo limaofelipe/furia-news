@@ -20,7 +20,6 @@ export function Card({ title,
    icon }:cardProps ) {
     return (
       <CardLinkStyled className={className} href={newsUrl} target="_blank">
-          <div>
               <div className="title">
                 <img className="icon" src={icon} />
                 <div>
@@ -29,7 +28,6 @@ export function Card({ title,
                 </div>
               </div>
               <img src={imageUrl}/>
-          </div>
       </CardLinkStyled>
     );
 };

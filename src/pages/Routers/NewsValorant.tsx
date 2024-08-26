@@ -1,6 +1,7 @@
-import { news } from "../../Home";
-import { Card } from "../../Home/components/Cards";
-import { NewsLayout, NewsGrid } from "./styles";
+import { news } from "../Home";
+import { Card } from "../Home/components/NewsCards";
+import { NewsStyled, NewsGrid } from "../Home/styles";
+
 
 export function filterNewsByTag(tag: any) {
   return news.filter(item => item.tag.toLowerCase() === tag.toLowerCase());
@@ -10,7 +11,7 @@ export function NewsValorant() {
   const filteredNews = (filterNewsByTag("#valorant").length > 0 ) ? filterNewsByTag("#valorant") : news
 
   return (
-    <NewsLayout>
+    <NewsStyled>
     <h1>Time Fúria - Valorant</h1>
     <NewsGrid>
     {filteredNews.map((item, index) => (
@@ -25,6 +26,6 @@ export function NewsValorant() {
             icon={item.icon}/>
         ))}
     </NewsGrid>
-  </NewsLayout>
+  </NewsStyled>
   )
 }

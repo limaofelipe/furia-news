@@ -8,17 +8,16 @@ export const CardLinkStyled = styled.a`
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  justify-content: space-evenly;
   text-decoration: none;
   color: ${props => props.theme["gray-300"]};
-  padding: 2rem;
-
   transition: 0.2s;
+  width: 26rem;
+  height: 31rem;
 
   h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
-    
   }
 
   p {
@@ -27,10 +26,13 @@ export const CardLinkStyled = styled.a`
     margin-top: 0.5rem;
   }
 
+
+
+
   img {
+    height: 14rem;
+    width: 23rem;
     margin-block: 1rem;
-    height: 16rem;
-    object-fit: fill;
     border-radius: 20px;
   }
 
@@ -47,6 +49,6 @@ export const CardLinkStyled = styled.a`
     display: flex;
     align-items: center;
     gap: 1rem;
-    width: fit-content;
+    
 }
 `
