@@ -1,19 +1,16 @@
 import styled from "styled-components";
 
 
-interface SidebarProps {
+interface toggleMenuProps {
   isVisible?: boolean;
 }
 
-export const SidebarStyled = styled.aside<SidebarProps> `
+export const ToggleMenuMobileStyled = styled.aside<toggleMenuProps> `
   color: ${props => props.theme["gray-300"]};
-  position: fixed;
   border-right: 1px solid ${props => props.theme["gray-600"]};
-  margin-left: 10rem;
-  height: 100vh;
-  width: 15rem;
-  overflow: auto;
-  margin-top: -2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   footer {
     text-align: center;
@@ -21,19 +18,6 @@ export const SidebarStyled = styled.aside<SidebarProps> `
     margin-top: 3rem;
     opacity: 0.5;
   }  
-
-
-  @media (max-width: 900px) {
-    margin-left: 6rem;
-  }
-
-  @media (max-width: 768px){
-    display: ${props => (props.isVisible ? 'flex' : 'none')};
-    visibility: ${props => (props.isVisible ? 'visible' : 'hidden')};
-  }
-
-  
-
 
 `
 

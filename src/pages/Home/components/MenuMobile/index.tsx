@@ -1,13 +1,12 @@
-import { Calendar, House, Newspaper, Users } from "@phosphor-icons/react";
-import { Divider, ListLink, ListLinkGames, SidebarStyled } from "./styles";
+import { House, Newspaper, Calendar, Users } from "@phosphor-icons/react";
 import { NavLink } from "react-router-dom";
+import { ToggleMenuMobileStyled, ListLink, Divider, ListLinkGames } from "./style";
 
 
-
-export function Sidebar() {
+export function ToggleMenuMobile() {
   return (
     
-    <SidebarStyled>
+    <ToggleMenuMobileStyled>
           <ListLink>
             <NavLink to="/">
               <House size={20}/>
@@ -18,7 +17,6 @@ export function Sidebar() {
         
           <Divider/>
 
-        <div>
           <ListLinkGames>
             <div>
               <h2>
@@ -93,7 +91,6 @@ export function Sidebar() {
 
           </ListLinkGames>
 
-        </div>
-    </SidebarStyled>
+    </ToggleMenuMobileStyled>
   )
 }

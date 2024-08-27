@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
+interface toggleMenuProps {
+  isVisible?: boolean;
+}
 
-export const HeaderStyled = styled.header `
+export const HeaderStyled = styled.header<toggleMenuProps> `
     position: fixed;
     top: 0%;
     width: 100%;
@@ -46,5 +49,38 @@ export const HeaderStyled = styled.header `
     }
     .button:hover {
       background-color: ${(props) => props.theme["gray-100"]};
+    }
+
+    
+
+    @media (max-width: 768px) {
+      padding-inline: 2rem;
+      flex-direction: column;
+      border-bottom: none;
+
+      .FirstLineHeader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .button {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+      }
+
+      .ButtonMenu {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+
+      .toggleMenu {
+        display: ${props => (props.isVisible ? 'block' : 'none')};
+        visibility: ${props => (props.isVisible ? 'visible' : 'hidden')};
+      }
+
+
     }
 `

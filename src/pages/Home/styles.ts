@@ -10,7 +10,7 @@ export const NewsStyled = styled.main `
 
 
   @media (max-width: 900px) {
-    margin-left: 18rem;
+    margin-left: 24rem;
   }
 
   @media (max-width: 768px){
