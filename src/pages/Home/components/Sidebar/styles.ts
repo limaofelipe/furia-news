@@ -10,8 +10,22 @@ export const SidebarStyled = styled.aside `
   overflow: auto;
   margin-top: -2rem;
 
-  
-  `
+  footer {
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 3rem;
+    opacity: 0.5;
+  }  
+
+  @media (max-width: 900px) {
+    margin-left: 1rem;
+  }
+
+  @media (max-width: 768px){
+    display: none;
+    visibility: hidden;
+  }
+`
 
 export const ListLink = styled.a `
 a {

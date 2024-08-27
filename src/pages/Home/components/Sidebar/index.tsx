@@ -86,6 +86,10 @@ export function Sidebar() {
               </ul>
             </div>
 
+            <footer>
+              <p>As marcas e logotipos mencionados neste projeto são de propriedade de suas respectivas empresas. Todos os direitos reservados. O uso destas marcas neste projeto é apenas para fins ilustrativos e não implica em qualquer endosso ou parceria.</p>
+            </footer>
+
           </ListLinkGames>
 
         </div>

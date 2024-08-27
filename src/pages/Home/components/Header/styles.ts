@@ -47,6 +47,4 @@ export const HeaderStyled = styled.header `
     .button:hover {
       background-color: ${(props) => props.theme["gray-100"]};
     }
-
-
 `

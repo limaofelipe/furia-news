@@ -6,6 +6,26 @@ export const NewsStyled = styled.main `
   margin-bottom: 1rem;
   margin-top: 6rem;
   margin-left: 28rem; 
+
+
+
+  @media (max-width: 900px) {
+    margin-left: 18rem;
+  }
+
+  @media (max-width: 768px){
+    margin-left: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      text-align: center;
+    }
+
+    
+  }
   
   
   `
@@ -15,7 +35,21 @@ export const NewsGrid = styled.section `
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   max-width: 81rem;
-  
 
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1200px){
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 1200px) and (max-width: 1500px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+   @media (min-width: 1500px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
 `

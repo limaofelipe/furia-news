@@ -12,12 +12,12 @@ export const CardLinkStyled = styled.a`
   text-decoration: none;
   color: ${props => props.theme["gray-300"]};
   transition: 0.2s;
-  width: 26rem;
-  height: 31rem;
+  
+  width: 22rem;
+  height: 27rem;
 
   h3{
-    font-size: 1.5rem;
-    margin-top: 2rem;
+    font-size: 1rem;
   }
 
   p {
@@ -30,8 +30,8 @@ export const CardLinkStyled = styled.a`
 
 
   img {
-    height: 14rem;
-    width: 23rem;
+    height: 10rem;
+    width: 20rem;
     margin-block: 1rem;
     border-radius: 20px;
   }
