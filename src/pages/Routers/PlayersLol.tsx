@@ -1,3 +1,4 @@
+import { Title } from "../Home/components/GameCard/styles"
 import { PlayersCard } from "../Home/components/PlayersCard"
 import { PlayersCardStyled } from "../Home/components/PlayersCard/styles"
 
@@ -35,6 +36,9 @@ export const lolPlayers = [
 export function PlayersLol() {
   return (
     <PlayersCardStyled>
+      <Title>
+          Players - League of Legends
+      </Title>
       {lolPlayers.map((item, index) => (
         <PlayersCard
         key={index}

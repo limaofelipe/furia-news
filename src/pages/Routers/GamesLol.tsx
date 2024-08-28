@@ -46,9 +46,7 @@ export function GamesLol() {
   return (
     <RecentGamesLayout>
       <Title>
-        <h1>
           Jogos Mais Recentes - League of Legends
-        </h1>
       </Title>
       {gamesValorant.map((item, index) => (
         <GameCard

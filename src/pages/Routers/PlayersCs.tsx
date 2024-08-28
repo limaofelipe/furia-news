@@ -1,3 +1,4 @@
+import { Title } from "../Home/components/GameCard/styles"
 import { PlayersCard } from "../Home/components/PlayersCard"
 import { PlayersCardStyled } from "../Home/components/PlayersCard/styles"
 
@@ -31,6 +32,10 @@ export const csPlayers = [
 export function PlayersCs() {
   return (
     <PlayersCardStyled>
+      <Title>
+          Players - Counter Strike
+      </Title>
+
       {csPlayers.map((item, index) => (
         <PlayersCard
         key={index}
@@ -38,8 +43,7 @@ export function PlayersCs() {
         playerImage={item.playerImage}
         />
       ))}
+      {/* </div> */}
   </ PlayersCardStyled>
-
-    
   )
 }

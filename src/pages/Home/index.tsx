@@ -2,9 +2,9 @@ import { Card } from "./components/NewsCards";
 import { NewsGrid, NewsStyled } from "./styles";
 
 export const LogoAsIcon = {
-  valorant: "./src/assets/icons/ValorantLogo.svg",
-  lol: "./src/assets/icons/LolLogo.svg",
-  cs: "./src/assets/icons/CsLogo.svg",
+  valorant: "../../src/assets/icons/ValorantLogo.svg",
+  lol: "../../src/assets/icons/LolLogo.svg",
+  cs: "../../src/assets/icons/CsLogo.svg",
 }
 
 

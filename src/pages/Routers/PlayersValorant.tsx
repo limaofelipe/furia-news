@@ -1,3 +1,4 @@
+import { Title } from "../Home/components/GameCard/styles"
 import { PlayersCard } from "../Home/components/PlayersCard"
 import { PlayersCardStyled } from "../Home/components/PlayersCard/styles"
 
@@ -31,6 +32,9 @@ export const valorantPlayers = [
 export function PlayersValorant() {
   return (
     <PlayersCardStyled>
+      <Title>
+          Players - Valorant
+      </Title>
       {valorantPlayers.map((item, index) => (
         <PlayersCard
         key={index}

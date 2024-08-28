@@ -18,7 +18,6 @@ export const SidebarStyled = styled.aside<SidebarProps> `
   footer {
     text-align: center;
     font-size: 0.7rem;
-    margin-top: 3rem;
     opacity: 0.5;
   }  
 

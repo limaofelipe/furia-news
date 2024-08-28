@@ -2,8 +2,11 @@ import { House, Newspaper, Calendar, Users } from "@phosphor-icons/react";
 import { NavLink } from "react-router-dom";
 import { ToggleMenuMobileStyled, ListLink, Divider, ListLinkGames } from "./style";
 
+interface SidebarProps {
+  closeSidebar: () => void; // Função recebida para fechar o Sidebar
+}
 
-export function ToggleMenuMobile() {
+export function ToggleMenuMobile({closeSidebar}: SidebarProps) {
   return (
     
     <ToggleMenuMobileStyled>
@@ -24,15 +27,15 @@ export function ToggleMenuMobile() {
                 Valorant
               </h2>
               <ul>
-                <NavLink to="/NewsValorant">
+                <NavLink onClick={closeSidebar} to="/NewsValorant">
                   <Newspaper size={20}/>
                   <li>Notícias</li>
                 </NavLink>
-                <NavLink to="/GamesValorant">
+                <NavLink onClick={closeSidebar} to="/GamesValorant">
                   <Calendar size={20} />
                   <li>Jogos mais recenetes</li>
                 </NavLink>
-                <NavLink to="/PlayersValorant">
+                <NavLink onClick={closeSidebar} to="/PlayersValorant">
                   <Users size={20} />
                   <li>Players</li>
                 </NavLink>
@@ -47,15 +50,15 @@ export function ToggleMenuMobile() {
                 League of Legends
               </h2>
               <ul>
-                <NavLink to="/NewsLol">
+                <NavLink onClick={closeSidebar} to="/NewsLol">
                 <Newspaper size={20}/>
                   <li>Notícias</li>
                 </NavLink>
-                <NavLink to="/GamesLol">
+                <NavLink onClick={closeSidebar} to="/GamesLol">
                   <Calendar size={20} />
                   <li>Jogos mais recenetes</li>
                 </NavLink>
-                <NavLink to="/PlayersLol">
+                <NavLink onClick={closeSidebar} to="/PlayersLol">
                   <Users size={20} />
                   <li>Players</li>
                 </NavLink>
@@ -70,15 +73,15 @@ export function ToggleMenuMobile() {
                 Counter Strike
               </h2>
               <ul>
-                <NavLink to="/NewsCs">
+                <NavLink onClick={closeSidebar} to="/NewsCs">
                   <Newspaper size={20}/>
                   <li>Notícias</li>
                 </NavLink>
-                <NavLink to="/GamesCs">
+                <NavLink onClick={closeSidebar} to="/GamesCs">
                   <Calendar size={20} />
                   <li>Jogos mais recenetes</li>
                 </NavLink>
-                <NavLink to="/PlayersCs">
+                <NavLink onClick={closeSidebar} to="/PlayersCs">
                   <Users size={20} />
                   <li>Players</li>
                 </NavLink>

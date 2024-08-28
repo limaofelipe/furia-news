@@ -69,9 +69,7 @@ export function GamesValorant() {
   return (
     <RecentGamesLayout>
       <Title>
-        <h1>
           Jogos Mais Recentes - Valorant
-        </h1>
       </Title>
       {gamesValorant.map((item, index) => (
         <GameCard
