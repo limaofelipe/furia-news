@@ -1,7 +1,9 @@
 import { House, Newspaper, Calendar, Users } from "@phosphor-icons/react";
 import { NavLink } from "react-router-dom";
 import { ToggleMenuMobileStyled, ListLink, Divider, ListLinkGames } from "./style";
-
+import valorantLogo from "../../../../assets/icons/ValorantLogo.svg"
+import LolLogo from "../../../../assets/icons/LolLogo.svg"
+import CsLogo from "../../../../assets/icons/CsLogo.svg"
 interface SidebarProps {
   closeSidebar: () => void;
 }
@@ -23,7 +25,7 @@ export function ToggleMenuMobile({closeSidebar}: SidebarProps) {
           <ListLinkGames>
             <div>
               <h2>
-                <img src="./src/assets/icons/ValorantLogo.svg"/>
+                <img src={valorantLogo}/>
                 Valorant
               </h2>
               <ul>
@@ -46,7 +48,7 @@ export function ToggleMenuMobile({closeSidebar}: SidebarProps) {
             
             <div>
               <h2>
-                <img src="./src/assets/icons/LolLogo.svg"/>
+                <img src={LolLogo}/>
                 League of Legends
               </h2>
               <ul>
@@ -69,7 +71,7 @@ export function ToggleMenuMobile({closeSidebar}: SidebarProps) {
 
             <div>
               <h2>
-                <img src="./src/assets/icons/CsLogo.svg"/>
+                <img src={CsLogo}/>
                 Counter Strike
               </h2>
               <ul>
