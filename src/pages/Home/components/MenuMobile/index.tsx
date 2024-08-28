@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { ToggleMenuMobileStyled, ListLink, Divider, ListLinkGames } from "./style";
 
 interface SidebarProps {
-  closeSidebar: () => void; // Função recebida para fechar o Sidebar
+  closeSidebar: () => void;
 }
 
 export function ToggleMenuMobile({closeSidebar}: SidebarProps) {

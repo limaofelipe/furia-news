@@ -1,5 +1,3 @@
-// import { PlayersCardStyled } from "./styles";
-
 interface CardProps{
   playerName: string,
   playerImage: string,

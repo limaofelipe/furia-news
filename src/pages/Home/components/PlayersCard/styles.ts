@@ -6,7 +6,7 @@ export const PlayersCardStyled = styled.section`
   
   gap: 2rem;
   margin-left: 27rem;
-  width: calc(100vw - 27rem);
+  width: calc(100vw - 29rem);
   margin-top: 6rem;
   
   h1{
