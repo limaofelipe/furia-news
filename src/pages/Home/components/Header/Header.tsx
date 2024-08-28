@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../../../../../public/assets/furia.png"
+import logo from "../../../../assets/furia.png"
 import { HeaderStyled } from "./styles";
 import { List, X } from "@phosphor-icons/react";
 import { useEffect, useState } from 'react';

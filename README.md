@@ -19,7 +19,7 @@ Portal de Noticias da Equipe Fúria <br/>
 <br>
 
 <p align="center">
-  <img alt="Projeto Fúria News" src="../../../../../public/assets/furia-news-cover.png" width="100%">
+  <img alt="Projeto Fúria News" src="./src/assets/furia-news-cover.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias

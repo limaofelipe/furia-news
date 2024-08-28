@@ -1,6 +1,9 @@
 import { Calendar, House, Newspaper, Users } from "@phosphor-icons/react";
 import { Divider, ListLink, ListLinkGames, SidebarStyled } from "./styles";
 import { NavLink } from "react-router-dom";
+import valorantLogo from "../../../../assets/icons/ValorantLogo.svg"
+import LolLogo from "../../../../assets/icons/LolLogo.svg"
+import CsLogo from "../../../../assets/icons/CsLogo.svg"
 
 
 
@@ -22,7 +25,7 @@ export function Sidebar() {
           <ListLinkGames>
             <div>
               <h2>
-                <img src="../../../../../public/assets/icons/ValorantLogo.svg"/>
+                <img src={valorantLogo}/>
                 Valorant
               </h2>
               <ul>
@@ -45,7 +48,7 @@ export function Sidebar() {
             
             <div>
               <h2>
-                <img src="../../../../../public/assets/icons/LolLogo.svg"/>
+                <img src={LolLogo}/>
                 League of Legends
               </h2>
               <ul>
@@ -68,7 +71,7 @@ export function Sidebar() {
 
             <div>
               <h2>
-                <img src="../../../../../public/assets/icons/CsLogo.svg"/>
+                <img src={CsLogo}/>
                 Counter Strike
               </h2>
               <ul>
