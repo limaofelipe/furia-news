@@ -5,31 +5,31 @@ import { PlayersCardStyled } from "../Home/components/PlayersCard/styles"
 export const lolPlayers = [
   {
     playerName: "Ayu",
-    playerImage: "./src/assets/image/lol-players/ayu.webp",
+    playerImage: "../../../../../public/assets/image/lol-players/ayu.webp",
   },
 
   {
     playerName: "Jojo",
-    playerImage: "./src/assets/image/lol-players/jojo.webp",
+    playerImage: "../../../../../public/assets/image/lol-players/jojo.webp",
   },
 
   {
     playerName: "Tutsz",
-    playerImage: "./src/assets/image/lol-players/tutsz.webp",
+    playerImage: "../../../../../public/assets/image/lol-players/tutsz.webp",
   },
 
   {
     playerName: "Wiz",
-    playerImage: "./src/assets/image/lol-players/wiz.webp",
+    playerImage: "../../../../../public/assets/image/lol-players/wiz.webp",
   },
 
   {
     playerName: "Zay",
-    playerImage: "./src/assets/image/lol-players/zay.webp",
+    playerImage: "../../../../../public/assets/image/lol-players/zay.webp",
   },
   {
     playerName: "Zzk",
-    playerImage: "./src/assets/image/lol-players/zzk.webp",
+    playerImage: "../../../../../public/assets/image/lol-players/zzk.webp",
   },
 ]
 

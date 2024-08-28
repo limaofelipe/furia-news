@@ -2,9 +2,9 @@ import { GameCard } from "../Home/components/GameCard"
 import { RecentGamesLayout, Title } from "../Home/components/GameCard/styles"
 
 export const teams = {
-  fluxo: "../../../src/assets/fluxo.png",
-  loud: "../../../src/assets/loud.png",
-  furia: "../../../src/assets/furia.png",
+  fluxo: "../../../../../public/assets/fluxo.png",
+  loud: "../../../../../public/assets/loud.png",
+  furia: "../../../../../public/assets/furia.png",
 
 }
 

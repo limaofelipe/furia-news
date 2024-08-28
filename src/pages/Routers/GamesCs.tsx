@@ -2,11 +2,11 @@ import { GameCard } from "../Home/components/GameCard"
 import { RecentGamesLayout, Title } from "../Home/components/GameCard/styles"
 
 export const teams = {
-  furia: "../../../src/assets/furia.png",
-  liquid: "../../../src/assets/teamliquid.png",
-  vitality: "../../../src/assets/vitality.png",
-  imperial: "../../../src/assets/imperial.png",
-  heroic: "../../../src/assets/heroic.png",
+  furia: "../../../../../public/assets/furia.png",
+  liquid: "../../../../../public/assets/teamliquid.png",
+  vitality: "../../../../../public/assets/vitality.png",
+  imperial: "../../../../../public/assets/imperial.png",
+  heroic: "../../../../../public/assets/heroic.png",
 
 }
 

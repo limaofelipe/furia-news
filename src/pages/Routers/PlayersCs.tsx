@@ -5,27 +5,27 @@ import { PlayersCardStyled } from "../Home/components/PlayersCard/styles"
 export const csPlayers = [
   {
     playerName: "Chelo",
-    playerImage: "./src/assets/image/cs-players/chelo.png",
+    playerImage: "../../../../../public/assets/image/cs-players/chelo.png",
   },
 
   {
     playerName: "Fallen",
-    playerImage: "./src/assets/image/cs-players/fallen.png",
+    playerImage: "../../../../../public/assets/image/cs-players/fallen.png",
   },
 
   {
     playerName: "Kscerato",
-    playerImage: "./src/assets/image/cs-players/kscerato.png",
+    playerImage: "../../../../../public/assets/image/cs-players/kscerato.png",
   },
 
   {
     playerName: "Skullz",
-    playerImage: "./src/assets/image/cs-players/skullz.png",
+    playerImage: "../../../../../public/assets/image/cs-players/skullz.png",
   },
 
   {
     playerName: "Yuurih",
-    playerImage: "./src/assets/image/cs-players/yuurih.png",
+    playerImage: "../../../../../public/assets/image/cs-players/yuurih.png",
   },
 ]
 

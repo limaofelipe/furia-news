@@ -22,7 +22,7 @@ export function Sidebar() {
           <ListLinkGames>
             <div>
               <h2>
-                <img src="./src/assets/icons/ValorantLogo.svg"/>
+                <img src="../../../../../public/assets/icons/ValorantLogo.svg"/>
                 Valorant
               </h2>
               <ul>
@@ -45,7 +45,7 @@ export function Sidebar() {
             
             <div>
               <h2>
-                <img src="./src/assets/icons/LolLogo.svg"/>
+                <img src="../../../../../public/assets/icons/LolLogo.svg"/>
                 League of Legends
               </h2>
               <ul>
@@ -68,7 +68,7 @@ export function Sidebar() {
 
             <div>
               <h2>
-                <img src="./src/assets/icons/CsLogo.svg"/>
+                <img src="../../../../../public/assets/icons/CsLogo.svg"/>
                 Counter Strike
               </h2>
               <ul>

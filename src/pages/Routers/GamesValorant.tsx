@@ -2,12 +2,12 @@ import { GameCard } from "../Home/components/GameCard"
 import { RecentGamesLayout, Title } from "../Home/components/GameCard/styles"
 
 export const teams = {
-  leviatan: "../../../src/assets/leviatan.png",
-  hundredt: "../../../src/assets/hundredt.png",
-  eg: "../../../src/assets/eg.png",
-  loud: "../../../src/assets/loud.png",
-  mibr: "../../../src/assets/mibr.png",
-  furia: "../../../src/assets/furia.png",
+  leviatan: "../../../../../public/assets/leviatan.png",
+  hundredt: "../../../../../public/assets/hundredt.png",
+  eg: "../../../../../public/assets/eg.png",
+  loud: "../../../../../public/assets/loud.png",
+  mibr: "../../../../../public/assets/mibr.png",
+  furia: "../../../../../public/assets/furia.png",
 
 }
 

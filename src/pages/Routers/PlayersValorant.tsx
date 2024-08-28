@@ -5,27 +5,27 @@ import { PlayersCardStyled } from "../Home/components/PlayersCard/styles"
 export const valorantPlayers = [
   {
     playerName: "Havoc",
-    playerImage: "./src/assets/image/valorant-players/havoc.png",
+    playerImage: "../../../../../public/assets/image/valorant-players/havoc.png",
   },
 
   {
     playerName: "Khalil",
-    playerImage: "./src/assets/image/valorant-players/khalil.png",
+    playerImage: "../../../../../public/assets/image/valorant-players/khalil.png",
   },
 
   {
     playerName: "Mwzera",
-    playerImage: "./src/assets/image/valorant-players/mwzera.png",
+    playerImage: "../../../../../public/assets/image/valorant-players/mwzera.png",
   },
 
   {
     playerName: "NZR",
-    playerImage: "./src/assets/image/valorant-players/nzr.png",
+    playerImage: "../../../../../public/assets/image/valorant-players/nzr.png",
   },
 
   {
     playerName: "Xand",
-    playerImage: "./src/assets/image/valorant-players/xand.png",
+    playerImage: "../../../../../public/assets/image/valorant-players/xand.png",
   },
 ]
 
