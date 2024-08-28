@@ -1,35 +1,42 @@
 import { Title } from "../Home/components/GameCard/styles"
 import { PlayersCard } from "../Home/components/PlayersCard"
 import { PlayersCardStyled } from "../Home/components/PlayersCard/styles"
+import ayuImage from "../../assets/image/lol-players/ayu.webp"
+import jojoImage from "../../assets/image/lol-players/jojo.webp"
+import tutszImage from "../../assets/image/lol-players/tutsz.webp"
+import wizImage from "../../assets/image/lol-players/wiz.webp"
+import zayImage from "../../assets/image/lol-players/zay.webp"
+import zzkImage from "../../assets/image/lol-players/zzk.webp"
+
 
 export const lolPlayers = [
   {
     playerName: "Ayu",
-    playerImage: "../../../../../public/assets/image/lol-players/ayu.webp",
+    playerImage: ayuImage,
   },
 
   {
     playerName: "Jojo",
-    playerImage: "../../../../../public/assets/image/lol-players/jojo.webp",
+    playerImage: jojoImage,
   },
 
   {
     playerName: "Tutsz",
-    playerImage: "../../../../../public/assets/image/lol-players/tutsz.webp",
+    playerImage: tutszImage,
   },
 
   {
     playerName: "Wiz",
-    playerImage: "../../../../../public/assets/image/lol-players/wiz.webp",
+    playerImage: wizImage,
   },
 
   {
     playerName: "Zay",
-    playerImage: "../../../../../public/assets/image/lol-players/zay.webp",
+    playerImage: zayImage,
   },
   {
     playerName: "Zzk",
-    playerImage: "../../../../../public/assets/image/lol-players/zzk.webp",
+    playerImage: zzkImage,
   },
 ]
 

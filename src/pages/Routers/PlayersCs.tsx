@@ -1,31 +1,37 @@
 import { Title } from "../Home/components/GameCard/styles"
 import { PlayersCard } from "../Home/components/PlayersCard"
 import { PlayersCardStyled } from "../Home/components/PlayersCard/styles"
+import cheloImage from "../../assets/image/cs-players/chelo.png"
+import fallenImage from "../../assets/image/cs-players/fallen.png"
+import ksceratoImage from "../../assets/image/cs-players/kscerato.png"
+import skullzImage from "../../assets/image/cs-players/skullz.png"
+import yuurihImage from "../../assets/image/cs-players/yuurih.png"
+
 
 export const csPlayers = [
   {
     playerName: "Chelo",
-    playerImage: "../../../../../public/assets/image/cs-players/chelo.png",
+    playerImage: cheloImage,
   },
 
   {
     playerName: "Fallen",
-    playerImage: "../../../../../public/assets/image/cs-players/fallen.png",
+    playerImage: fallenImage,
   },
 
   {
     playerName: "Kscerato",
-    playerImage: "../../../../../public/assets/image/cs-players/kscerato.png",
+    playerImage: ksceratoImage,
   },
 
   {
     playerName: "Skullz",
-    playerImage: "../../../../../public/assets/image/cs-players/skullz.png",
+    playerImage: skullzImage,
   },
 
   {
     playerName: "Yuurih",
-    playerImage: "../../../../../public/assets/image/cs-players/yuurih.png",
+    playerImage: yuurihImage,
   },
 ]
 

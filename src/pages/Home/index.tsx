@@ -4,12 +4,6 @@ import ValorantLogo from "../../assets/icons/ValorantLogo.svg"
 import CsLogo from "../../assets/icons/CsLogo.svg"
 import LolLogo from "../../assets/icons/LolLogo.svg"
 
-// export const LogoAsIcon = {
-//   valorant: "../../src/assets/icons/ValorantLogo.svg",
-//   lol: "../../src/assets/icons/LolLogo.svg",
-//   cs: "../../src/assets/icons/CsLogo.svg",
-// }
-
 
 export const news =  [
   {

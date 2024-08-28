@@ -1,64 +1,60 @@
 import { GameCard } from "../Home/components/GameCard"
 import { RecentGamesLayout, Title } from "../Home/components/GameCard/styles"
-
-export const teams = {
-  furia: "../../../../../public/assets/furia.png",
-  liquid: "../../../../../public/assets/teamliquid.png",
-  vitality: "../../../../../public/assets/vitality.png",
-  imperial: "../../../../../public/assets/imperial.png",
-  heroic: "../../../../../public/assets/heroic.png",
-
-}
+import furiaLogo from "../../assets/furia.png"
+import liquidLogo from "../../assets/teamliquid.png"
+import vitalityLogo from "../../assets/vitality.png"
+import imperialLogo from "../../assets/imperial.png"
+import heroicLogo from "../../assets/heroic.png"
 
 
 export const gamesValorant = [
   { 
     date: "12 de Agosto de 2024",
     firstTeam: "Team Liquid",
-    firstTeamLogo: teams.liquid,
+    firstTeamLogo: liquidLogo,
     firstTeamPoints: 2,
     secondTeam: "Fúria Esports",
-    secondTeamLogo: teams.furia,
+    secondTeamLogo: furiaLogo,
     secondTeamPoints: 0,
   },
 
   { 
     date: "11 de Agosto de 2024",
     firstTeam: "Team Vitality",
-    firstTeamLogo: teams.vitality,
+    firstTeamLogo: vitalityLogo,
     firstTeamPoints: 2,
     secondTeam: "Fúria Esports",
-    secondTeamLogo: teams.furia,
+    secondTeamLogo: furiaLogo,
     secondTeamPoints: 0,
   },
 
   { 
     date: "09 de Agosto de 2024",
     firstTeam: "Fúria Esports",
-    firstTeamLogo: teams.furia,
+    firstTeamLogo: furiaLogo,
     firstTeamPoints: 2,
     secondTeam: "Heroic",
-    secondTeamLogo: teams.heroic,
+    secondTeamLogo: heroicLogo,
     secondTeamPoints: 1,
   },
 
   { 
     date: "08 de Agosto de 2024",
     firstTeam: "Fúria Esports",
-    firstTeamLogo: teams.furia,
+    firstTeamLogo: furiaLogo,
     firstTeamPoints: 1,
     secondTeam: "Team Liquid",
-    secondTeamLogo: teams.liquid,
+    secondTeamLogo: liquidLogo,
     secondTeamPoints: 2,
   },
 
   { 
     date: "07 de Agosto de 2024",
     firstTeam: "Fúria Esports",
-    firstTeamLogo: teams.furia,
+    firstTeamLogo: furiaLogo,
     firstTeamPoints: 2,
     secondTeam: "Imperial Esports",
-    secondTeamLogo: teams.imperial,
+    secondTeamLogo: imperialLogo,
     secondTeamPoints: 1,
   }
 

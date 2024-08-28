@@ -12,7 +12,7 @@ export const RecentGamesLayout = styled.div`
   margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
-  width: calc(100vw - 26rem);
+  width: calc(100vw - 27rem);
 
  
   @media (max-width: 768px){
